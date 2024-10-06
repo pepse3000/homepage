@@ -229,7 +229,7 @@ footer button:hover {
 
 @media (max-width: 600px) {
   body {
-    padding: 0 5px;
+    padding: 0 10px;
   }
 
   .intro {
@@ -268,6 +268,22 @@ footer button:hover {
 
   .about-me img {
     display: none;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 }
 
